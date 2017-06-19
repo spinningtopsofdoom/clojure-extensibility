@@ -1,0 +1,6 @@
+{ "name": "Clojure Extensibility",
+  "highlight": "solarized_dark",
+  "sections": [
+      {"section":"extensibility/intro"},
+      {"section":"extensibility/outro"}
+  ]}
