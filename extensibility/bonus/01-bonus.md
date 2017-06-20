@@ -38,7 +38,10 @@
 
 !SLIDE
 
-# TODO HELPPPPP
+# `reify` use cases similar to anonymous functions
+* Dynamic context (like React components)
+* Functionality dependent on object data
+* Not important enough to name
 
 !SLIDE
 
@@ -105,3 +108,7 @@
         (default-show-colors colors)))
 
 !SLIDE
+
+# Common use cases
+* Different functions for a map (e.g. HTTP response map)
+* Building a open system not dependent on types
