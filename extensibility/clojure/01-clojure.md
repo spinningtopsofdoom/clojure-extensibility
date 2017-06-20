@@ -36,7 +36,7 @@
 # Fleep Bonkobucks (concrete implementation)
 
     @@@clojure
-     (ns bonkonauts.calc
+    (ns bonkonauts.calc
       (:require
         [bonkonauts.currency :as bc]
         [bonkonauts.enemy :as be]))
@@ -60,7 +60,7 @@
 # We can add protocols at record creation
 
     @@@clojure
-     (defrecord Marvin [time-alive]
+    (defrecord Marvin [time-alive]
       bc/Bonkobucks
       (-bonkobucks [marvin]
         (* 10 (- 30 time-alive))))
@@ -80,6 +80,13 @@
       (condp = (class enemy)
         bonkonauts.enemy.Fleep (fleep-bucks enemy)
         bonkonauts.calc.Marvin (marvin-bucks enemy)))
+
+!SLIDE
+
+## Anatomy of a protocol
+
+    @@@clojure
+    (protocol-fn [calling-object arg1 arg2 arg3 arg4 ...])
 
 !SLIDE
 

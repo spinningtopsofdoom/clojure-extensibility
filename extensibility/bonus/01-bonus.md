@@ -78,9 +78,20 @@
 	(show-colors [:red])
 	; => "Monochromatic :red."
 
+
 !SLIDE
 
-# A default method can be set
+## Anatomy of a multi method
+
+    @@@clojure
+    (defmulti multi-fn-name dispacth-function)
+
+    (defmethod multi-fn-name dispatch-function-result-1 [params])
+    (defmethod multi-fn-name dispatch-function-result-2 [params])
+
+!SLIDE
+
+# A default mutli method can be set
 
 	@@@clojure
 	 (show-colors [:red :orange])

@@ -10,7 +10,7 @@
 !SLIDE
 ## Bonkonauts
 
-### A game about astronauts bonking on the head aliens with various implements (bats, oversized hammers, ???).
+### A game about astronauts bonking on the head aliens with various implements (bats, oversized hammers, giant rocks).
 
 !SLIDE
 # New Feature

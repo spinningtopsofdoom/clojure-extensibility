@@ -104,3 +104,10 @@ Eschews data hiding and mini languages for every data type. Opts for ease of dat
 * A reader literal for `CustomEnemy` that takes a vector
 * Ability to have mutable fields
 
+!SLIDE
+
+# Use `deftype` for language level constructs
+
+## For examples see
+* [Avl Tree](https://github.com/clojure/data.avl), [RRB Vector](https://github.com/clojure/core.rrb-vector)
+* ClojureScript (all data types are created with `deftype`)

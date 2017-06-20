@@ -19,7 +19,7 @@
 * System of custom components (e.g. Component, Om, Reagent)
 * Integrate data type into core Clojure functions (e.g. `clojure.data.avl`)
 * New abstraction that can not be built on top of current abstractions
-* More performant abstraction that can (e.g. diffing a data structure)
+* More performant abstraction (e.g. diffing a data structure)
 
 !SLIDE
 
