@@ -85,6 +85,7 @@
 ; => :shhhh
 (-set-secret! custom-enemy :what?)
 (-get-secret! custom-enemy)
+; => :what?
 
 ;; Reify
 
