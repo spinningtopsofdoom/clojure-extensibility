@@ -2,5 +2,6 @@
   "highlight": "solarized_dark",
   "sections": [
       {"section":"extensibility/intro"},
+      {"section":"extensibility/oop"},
       {"section":"extensibility/outro"}
   ]}
