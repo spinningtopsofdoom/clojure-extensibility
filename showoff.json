@@ -3,5 +3,6 @@
   "sections": [
       {"section":"extensibility/intro"},
       {"section":"extensibility/oop"},
+      {"section":"extensibility/clojure"},
       {"section":"extensibility/outro"}
   ]}
